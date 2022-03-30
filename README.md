@@ -155,7 +155,25 @@ was a problem. What this number means will be documented in the command's help o
 
 # Installing new software
 
-* apt vs yum (debian vs red hat)
+Package managers are repositories of software that you can use to install new software on to your machine.
+You can install things like git, java, maven and lots of other things.
+
+For HMRC, we are using a linux distribution called Amazon Workspaces. It is based of Red Hat, which
+uses `yum` as its program for managing and installing new software from the repository.
+
+Modifying your machine with yum requires that it run as root. This stops anyone from just
+being able to modify software that you have already installed (unless they are also running as root).
+
+To install git on your machine you would write:
+
+```shell
+sudo yum install git
+```
+
+Finding the name of the package to install can be done with `yum search`. Though usually,
+it's easier to use google.
+
+Another popular distribution is Debian and Ubuntu, which use `apt` for managing software.
 
 # Pipes and redirection
 
@@ -183,7 +201,7 @@ example:
 
 ```shell
 # test that the file exists, then compile it, then run the resulting class file
-ls foo/Main.java && javac foo/Main.java && java.foo.Main
+ls foo/Main.java && javac foo/Main.java && java foo.Main
 ```
 
 # Getting help
