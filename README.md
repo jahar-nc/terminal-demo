@@ -9,7 +9,8 @@ a prompt and then have them executed. A terminal is more fully featured than
 The shell is what the terminal uses to read commands and go and execute them. It is
 turing complete. Indeed many scripts are written that solely use the shell.
 There are many different shells, but typically the default is `bash` (Bourne again shell).
-This doesn't mean it's the best shell out there, just the most common.
+This doesn't mean it's the best shell out there, just the most common. Some
+of the examples hear assume you are using `bash`. Those areas will be marked with a †
 
 # Filesystem Hierarchy (Standard)
 
@@ -86,14 +87,9 @@ Commands for navigating your machine and modifying the filesystems
 	running process then you close the input of your shell process which means
 	it will exit
 
-# Variables
+# Variables †
 
-* check the value of a variable
-* uppercase used to denote environment variables
-* how to set and unset variables
-* how to make variables available to subprocesses (export)
-* Special variables eg. `$?` -- did the last program exit happily or not
-* list all environment variables `env`
+Much of this section assumes you are using bash. Different shells differ in some or all aspects.
 
 ## Check the value of a variable:
 
