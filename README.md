@@ -69,6 +69,7 @@ Commands for navigating your machine and modifying the filesystems
 * grep -- prints lines of a file that match a pattern or regular expression
 * cat -- prints out the contents of one or more files to the terminal
 * tail -- prints out the last N lines of a file
+* sed -- Stream EDitor provides "search and replace" functionality. Can form part of a pipeline 
 
 # Checking and manipulating processes
 
