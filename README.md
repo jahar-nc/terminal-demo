@@ -210,4 +210,5 @@ If that doesn't work, press Esc a few times and then press `q`.
 # Useful Links
 
 * https://digitalocean.com/community/tutorials/an-introduction-to-linux-basics
+* https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
 
